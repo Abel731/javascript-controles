@@ -18,8 +18,8 @@ btnMostrar.addEventListener("click", function(){
     const apellidos = document.getElementById("txtApellido").value;
     const cedulas = document.getElementById("txtCedula").value;
     const direccion = document.getElementById("txtDireccion").value;
-    console.log('nombres'+nombres+'apellidos'+apellidos+'cedulas'+cedulas+'direccion'+direccion);
-    alert('nombres'+nombres+'apellidos'+apellidos+'cedulas'+cedulas+'direccion'+direccion);
+    console.log(' nombres '+nombres+' apellidos '+apellidos+' cedulas '+cedulas+' direccion '+direccion);
+    alert(' nombres '+nombres+' apellidos '+apellidos+' cedulas '+cedulas+' direccion '+direccion);
 
 });
 
